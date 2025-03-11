@@ -264,6 +264,8 @@ margin: 20px;
     
   }
   .containe3 {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
   }
