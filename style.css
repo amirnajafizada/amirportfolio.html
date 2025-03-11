@@ -269,11 +269,7 @@ margin: 20px;
     display: flex;
     justify-content: center;
   }
-  .home-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   .container2 {
     display: flex;
