@@ -249,7 +249,7 @@ margin: 20px;
 .progress {
   height: 100%;
   border-radius: 5px;
-  background: linear-gradient(90deg, #a39f9f, #333);
+  background: linear-gradient(90deg, #121212, #008B8B );
   transition: width 0.5s ease-in-out;
 }
 
@@ -261,11 +261,6 @@ margin: 20px;
   .nav-item a:hover {
     transform: scale(1);
     color: darkcyan;
-  }
-  .education {
-    flex-direction: column;
-    height: 100vh;
-    
   }
   .containe3 {
     padding: 0px;
