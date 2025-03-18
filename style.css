@@ -14,7 +14,7 @@ body {
   justify-content: flex-start;
   height: 100vh;
   align-items: center;
-  margin-left: 15px;
+  margin-left: 10rem;
 }
 
 .name {
@@ -258,6 +258,10 @@ margin: 20px;
   * {
     overflow-x: hidden;
   }
+  .nav-item a:hover {
+    transform: scale(1);
+    color: darkcyan;
+  }
   .education {
     flex-direction: column;
     height: 100vh;
@@ -268,6 +272,8 @@ margin: 20px;
     margin: 0px;
     display: flex;
     justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
   }
 
   .container2 {
@@ -284,11 +290,14 @@ margin: 20px;
   margin: 10px;
 }
   #typing-text  {
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
   .name {
-    height: 50vh;
+    height: fit-content;
     box-shadow: 2px 2px 5px #080808;
+    justify-content: center;
+    align-items: center;
   }
   #toefl {
     margin-bottom: 20px;
